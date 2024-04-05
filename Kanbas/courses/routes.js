@@ -1,4 +1,5 @@
 import Database from "../Database/index.js";
+// all the routes for courses
 export default function CourseRoutes(app) {
   // update a course
   app.put("/api/courses/:id", (req, res) => {
